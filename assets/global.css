@@ -1,0 +1,26 @@
+* {
+  font-family: "Inter", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 768px;
+  display: block;
+  margin: 0 auto;
+  background: #fff;
+  height: 100%;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: 0.3s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(6%);
+}
